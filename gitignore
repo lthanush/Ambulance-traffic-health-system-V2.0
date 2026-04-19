@@ -1,0 +1,59 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Logs and databases
+*.log
+*.csv
+patient_logs.csv
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Arduino build files
+*.hex
+*.elf
+*.eep
+*.map
+*.sym
+*.lss
+*.o
+*.a
+build/
+
+# Compiled files
+*.out
+*.class
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# WiFi credentials (if stored separately)
+wifi_config.h
+credentials.txt
+
+# Server configuration (if sensitive)
+server_config.json
+
+# Test data
+test_logs/
+*.test.csv

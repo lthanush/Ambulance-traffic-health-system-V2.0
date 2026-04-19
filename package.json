@@ -1,0 +1,48 @@
+{
+  "name": "ambulance-traffic-health-system",
+  "version": "1.0.0",
+  "description": "IoT-based automatic traffic signal control and patient health monitoring system for ambulances using RFID, ZigBee, and real-time vital signs transmission",
+  "main": "hospital_server.js",
+  "scripts": {
+    "start": "node hospital_server.js",
+    "dev": "nodemon hospital_server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ambulance",
+    "traffic-control",
+    "RFID",
+    "ZigBee",
+    "health-monitoring",
+    "IoT",
+    "Arduino",
+    "ESP32",
+    "emergency-response",
+    "vital-signs",
+    "patient-monitoring",
+    "pulse-oximeter",
+    "smart-traffic",
+    "wireless-communication"
+  ],
+  "author": "CMRIT - Department of Electrical and Electronics Engineering",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ambulance-traffic-health-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/ambulance-traffic-health-system/issues"
+  },
+  "homepage": "https://github.com/yourusername/ambulance-traffic-health-system#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
